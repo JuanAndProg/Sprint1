@@ -1,0 +1,34 @@
+@media all and (max-width: 768px) {  /*tamany tablet*/
+    .section{
+        flex-direction: column;
+        background-color: #FFD93D;       
+    }
+} 
+@media all and (max-width: 430px){ /*tamany mòbil*/
+    .menu{
+        flex-direction: column;
+    } 
+    .section {
+        flex-direction: column;
+        background: #FFED00;
+    }
+    .articulos{
+        background-color: #0F4C75;
+    }
+
+    .article {
+        background: #4b677b9e;
+    
+    }
+    .navegacion{
+        background-color: #8fdced;
+
+    }
+    .aside{
+        flex-direction: column;
+        background: #FE6244;
+    }
+        .publicidad{
+            background: #E9A178;
+        }
+}
