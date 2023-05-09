@@ -1,4 +1,4 @@
 <?php
 define("NOM", "Juan");
-echo "<h1><strong>".NOM."</strong></h1>";
+echo "<h1>".NOM."</h1>";
 ?>
