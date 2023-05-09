@@ -1,11 +1,12 @@
 <?php
-class Shape {
-    private $width;
-    private $height;
+abstract class Shape {
+    protected $width;
+    protected $height;
   
-    function __construct($width, $height) {
+    public function __construct($width, $height) {
       $this->width = $width;
       $this->height = $height;
     }
+    abstract protected function getArea();
   }
 ?>  
